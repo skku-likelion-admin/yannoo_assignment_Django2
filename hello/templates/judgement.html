@@ -1,0 +1,16 @@
+<h1>Let's judge your answer</h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h3> SCORE : {{score}}</h3>
+
+<img width = "500px" height= "500px" src = {% if score == 0 %}
+"https://item.kakaocdn.net/do/437998cb670b87a9a8faca156155beeb15b3f4e3c2033bfd702a321ec6eda72c"
+{% elif score == 1 %}
+"https://item.kakaocdn.net/do/c9230634b95167d3f4c177bb02c9f73d82f3bd8c9735553d03f6f982e10ebe70"
+{% else %}
+"https://item.kakaocdn.net/do/a56e6ddd117688df80be93b1154a9856f43ad912ad8dd55b04db6a64cddaf76d"
+{% endif %}/>
